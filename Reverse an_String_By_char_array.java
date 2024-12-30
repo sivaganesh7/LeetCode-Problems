@@ -1,9 +1,9 @@
 public class Solution {
     public void reverseString(char[] s) {
-        reverseHelper(s, 0, s.length - 1);
+        reversemethod(s, 0, s.length - 1);
     }
     
-    private void reverseHelper(char[] s, int left, int right) {
+    private void reversemethod(char[] s, int left, int right) {
         if (left >= right) {
             return;
         }
